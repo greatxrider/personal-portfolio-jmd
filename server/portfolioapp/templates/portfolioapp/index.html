@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="description" content="Your page's concise summary goes here.">
+        <meta name="keywords" content="keyword1, keyword2, keyword3">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jeph Mari Daligdig - Full Stack Software Developer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeph Daligdig</title>
+        <link href="{% static "portfolio/style.css" %}" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+              rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+              rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="body">
+        {% load static %}
+        <section id="home">
+            <div class="container-fluid" id="maincontainer">
+                <div class="navbarwithlogo">
+                    <div class="logo jmd">JMD</div>
+                    <nav class="navbar navbar-expand-sm bg-gray navbar-dark">
+                        <div class="container-fluid">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Skillset</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Projects</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="container-fluid mt-5">
+                    <div class="row">
+                        <div class="col-sm-6" id="introduction-container">
+                            <div class="Introduction">
+                                <p class="content">
+                                    <span class="salutation">Hi, it's me</span>
+                                    <br>
+                                    <span class="name">JEPH</span><span class="period">.</span>
+                                    <br>
+                                    Welcome to my corner of the web!
+                                    <br>
+                                    I'm a Software Developer hailing from the
+                                    <br>
+                                    beautiful Philippines. Let me be the developer
+                                    <br>
+                                    who turns your vision into a reality.
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="images">
+                                <img class="Jephmari" src="{% static "assets/Subject.png" %}" alt="my-picture" />
+                                <img class="circle" src="{% static "assets/circle.png" %}" alt="circle" />
+                                <img class="windows" src="{% static "assets/windows.png" %}" alt="windows" />
+                                <img class="headboard" src="{% static "assets/headboard.png" %}" alt="headboard" />
+                                <img class="programs" src="{% static "assets/programs2.png" %}" alt="programs" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="black-border">
+                    <!-- Your content here -->
+                </div>
+            </div>
+        </section>
+        <section id="about-me">
+            <div class="container-fluid" id="maincontainer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6" id="introduction-container">
+                            <div class="Introduction">
+                                <p class="content">
+                                    <span class="aboutme">ABOUT ME</span><span class="skillset-period">.</span>
+                                    <br>
+                                    I'm a Full-Stack Developer based in 
+                                    <br>
+                                    the Philippines.
+                                    <br>
+                                    <br>
+                                    Since 2015, I have a genuine passion for design
+                                    <br>
+                                    and creativity, especially when it comes to
+                                    <br>
+                                    solving complex problems. When I'm not
+                                    <br>
+                                    engrossed in coding and tackling challenges,
+                                    <br>
+                                    you'll often find me either cooking, hitting the
+                                    <br>
+                                    gym, or travelling.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="images">
+                                <img class="secondpage" src="{% static "assets/secondpage.png" %}" alt="my-picture" />
+                                <img class="programs2" src="{% static "assets/programs.png" %}" alt="programs" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="black-border">
+                    <!-- Your content here -->
+                </div>
+            </div> 
+        </section>
+        <div class="d-flex flex-row m-3" id="image-container">
+            <div class="p-0">
+                <img class="travelpic1" src="{% static "assets/travel1.png" %}" alt="my-picture" />
+            </div>
+            <div class="p-0">
+                <img class="travelpic2" src="{% static "assets/travel2.png" %}" alt="my-picture" />
+            </div>
+            <div class="p-0">
+                <img class="travelpic3" src="{% static "assets/travel3.png" %}" alt="my-picture" />
+            </div>
+            <div class="p-0">
+                <img class="travelpic4" src="{% static "assets/travel4.png" %}" alt="my-picture" />
+            </div>
+            <div class="p-0">
+                <img class="travelpic5" src="{% static "assets/travel5.png" %}" alt="my-picture" />
+            </div>
+            <div class="p-0">
+                <img class="travelpic6" src="{% static "assets/travel6.png" %}" alt="my-picture" />
+            </div>
+            <div class="p-0">
+                <img class="travelpic7" src="{% static "assets/travel7.png" %}" alt="my-picture" />
+            </div>
+        </div>     
+        <section class="mt-5" id="skillset">
+            <div class="container-fluid" id="maincontainer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6" id="skillset-container">
+                            <div class="skillset-title">
+                                <p class="content">
+                                    <span class="skillset fw-bold">SKILLSET</span>
+                                    <br>
+                                    <span class="role">Full Stack Web Development &</span>
+                                    <br>
+                                    <span class="role">Software Development</span><span class="skillset-period">.</span>
+                                </p>
+                            </div>                     
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="skillset-story">
+                                <p class="skillset-story-content">
+                                    I have recently earned my certification in Full Stack Web Development and Software Engineering, specializing in building complex software and web applications that 
+                                    incorporate both front-end and back-end technologies. I have successfully completed numerous projects that showcase my proficiency and skills as both a software developer and a web developer. 
+                                    The process of transforming a concept into a fully realized digital product, gathering user feedback, and taking products from development to release is what excites me each day. 
+                                    I truly enjoy both the design and development aspects of creating digital solutions, whether it's for clients or my own ventures.
+                                </p>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="container-fluid" id="maincontainer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6" id="programminglanguages-container">
+                            <p class="pl-content">Programming Languages</p>
+                            <div class="boxcontainer">
+                                <div class="d-flex flex-row justify-content-center rounded-box gap-5">
+                                    <img class="python plogo" src="{% static "assets/python.png" %}" alt="python-picture" />
+                                    <img class="csharp plogo" src="{% static "assets/csharp.png" %}" alt="csharp-picture" />
+                                    <img class="java plogo" src="{% static "assets/java.png" %}" alt="java-picture" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="boxcontainer2">
+                                <p class="stack-content">Front-end and Back-end Technologies</p>
+                                <div class="d-flex flex-wrap justify-content-start gap-2 rounded-box2 p-3">
+                                    <img class="html ptechnologies" src="{% static "assets/technologies/html.png" %}" alt="html-picture" />
+                                    <img class="css ptechnologies" src="{% static "assets/technologies/css.png" %}" alt="css-picture" />
+                                    <img class="javascript ptechnologies" src="{% static "assets/technologies/javascript.png" %}" alt="javascript-picture" /> 
+                                    <img class="react ptechnologies" src="{% static "assets/technologies/react.png" %}" alt="react-picture" />
+                                    <img class="angular ptechnologies" src="{% static "assets/technologies/angular.png" %}" alt="angular-picture" />
+                                    <img class="nodejs ptechnologies" src="{% static "assets/technologies/nodejs.png" %}" alt="nodejs-picture" />
+                                    <img class="express ptechnologies" src="{% static "assets/technologies/express.png" %}" alt="express-picture" />
+                                    <img class="npm ptechnologies" src="{% static "assets/technologies/npm.png" %}" alt="npm-picture" />
+                                    <img class="django ptechnologies" src="{% static "assets/technologies/django.png" %}" alt="django-picture" />
+                                    <img class="flask ptechnologies" src="{% static "assets/technologies/flask.png" %}" alt="flask-picture" />
+                                    <img class="sqlite ptechnologies" src="{% static "assets/technologies/sqlite.png" %}" alt="sqlite-picture" />
+                                    <img class="nosql ptechnologies" src="{% static "assets/technologies/nosql.png" %}" alt="nosql-picture" />
+                                    <img class="mysql ptechnologies" src="{% static "assets/technologies/mysql.png" %}" alt="mysql-picture" />
+                                    <img class="postgresql ptechnologies" src="{% static "assets/technologies/postgresql.png" %}" alt="postgresql-picture"/> 
+                                    <img class="mongodb ptechnologies" src="{% static "assets/technologies/mongodb.png" %}" alt="mongodb-picture" />
+                                    <img class="sqlserver ptechnologies" src="{% static "assets/technologies/sqlserver.png" %}" alt="sqlserver-picture" />
+                                    <img class="kubernetes ptechnologies" src="{% static "assets/technologies/kubernetes.png" %}" alt="kubernetes-picture" />
+                                    <img class="docker ptechnologies" src="{% static "assets/technologies/docker.png" %}" alt="docker-picture" />
+                                    <img class="openshift ptechnologies" src="{% static "assets/technologies/openshift.png" %}" alt="openshift-picture" />
+                                    <img class="zenhub ptechnologies" src="{% static "assets/technologies/zenhub.png" %}" alt="zenhub-picture" />
+                                    <img class="figma ptechnologies" src="{% static "assets/technologies/figma.png" %}" alt="figma-picture" />
+                                    <img class="ibmcloud ptechnologies" src="{% static "assets/technologies/ibmcloud.png" %}" alt="ibmcloud-picture"/>  
+                                    <img class="postman ptechnologies" src="{% static "assets/technologies/postman.png" %}" alt="postman-picture"/>  
+                                    <img class="git ptechnologies" src="{% static "assets/technologies/git.png" %}" alt="git-picture"/>  
+                                    <img class="github ptechnologies" src="{% static "assets/technologies/github.png" %}" alt="github-picture"/>                                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="black-border mt-2">
+                    <!-- Your content here -->
+                </div>   
+            </div>
+        </section>
+        <section class="mt-5" id="education">
+            <div class="container-fluid" id="maincontainer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6" id="school-container">
+                            <span class="skillset fw-bold">EDUCATION</span>
+                            <div class="boxcontainer3">
+                                <div class="d-flex flex-wrap justify-content-start rounded-box3 gap-2 p-3">
+                                    <img class="github pschool" src="{% static "assets/technologies/msuiit.png" %}" alt="github-picture"/>
+                                    <p class="mt-4">
+                                        Mindanao State University - Iligan Institute Of Technology
+                                        <br>
+                                        Bachelor of Science in Electronics Engineering
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="school-story">
+                                <p class="school-story-content mt-4">
+                                    I initially enrolled in Electronics Engineering in college, but I later decided to 
+                                    change my career path to pursue opportunities in the IT industry. During my college years, 
+                                    I gained a solid background in programming and received extensive training in this field, 
+                                    as we were also involved in designing circuits through programming. In order to further enhance 
+                                    my programming skills and stay up-to-date with the latest developments in the IT sector, 
+                                    I made the decision to enroll in various online courses. These courses have been instrumental in honing my programming 
+                                    abilities, and I have been using the knowledge I gained to undertake various projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-sm-10" id="certficate-container">
+                            <span class="certification fw-bold">CERTIFICATIONS</span>
+                            <div class="col-sm-12 boxcontainer4">
+                                <div class="row d-flex flex-wrap justify-content-around rounded-box4 gap-2 p-5">
+                                    <div class="d-flex flex-wrap justify-content-around gap-5">
+                                        <div class="course1 d-flex flex-wrap">
+                                            <img class="ibm pcertification" src="{% static "assets/technologies/ibm.png" %}" alt="ibm-picture"/>
+                                            <p class="mt-4">
+                                                IBM DevOps and Software Engineering
+                                                <br>
+                                                Professional Certificate
+                                            </p>
+                                        </div>
+                                        <div class="course2 d-flex flex-wrap">
+                                            <img class="ibm pcertification" src="{% static "assets/technologies/ibm.png" %}" alt="ibm-picture"/>
+                                            <p class="mt-4">
+                                                IBM Full-Stack Software Development
+                                                <br>
+                                                Professional Certificate
+                                            </p>
+                                        </div>
+                                    </div>    
+                                    <div class="d-flex flex-wrap justify-content-around gap-5">
+                                        <div class="course1 d-flex flex-wrap gap-3">
+                                            <img class="ibm pcertification" src="{% static "assets/technologies/appbrewery.png" %}" alt="ibm-picture"/>
+                                            <p class="mt-4">
+                                                Full Stack Web Development
+                                                <br>
+                                                Professional Certificate
+                                            </p>
+                                        </div>
+                                        <div class="course2 d-flex flex-wrap gap-3">
+                                            <img class="ibm pcertification" src="{% static "assets/technologies/appbrewery.png" %}" alt="ibm-picture"/>
+                                            <p class="mt-4">
+                                                Python Professional Bootcamp
+                                                <br>
+                                                Professional Certificate
+                                            </p>
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
